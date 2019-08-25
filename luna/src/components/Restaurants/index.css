@@ -1,0 +1,6 @@
+.restaurants {
+    background-color: #eeeef1af;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}

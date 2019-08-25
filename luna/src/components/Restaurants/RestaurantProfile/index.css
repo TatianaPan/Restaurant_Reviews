@@ -1,0 +1,56 @@
+
+.description {
+    width: 412px;
+    height: 36px;
+    font-family: Helvetica;
+    font-size: 30px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #ffffff;
+    margin-left: 130px;
+    margin-top: 32px;
+}
+
+.text_rest {
+
+  height: 18px;
+  font-family: Helvetica;
+  font-size: 15px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #4c4c4c;
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+
+.small_logo {
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.mapImage {
+    width: 260px;
+    object-fit: cover;
+}
+
+.leftColumn {
+    width: 700px;
+}
+
+.rest_page {
+    background-color: #f8f8f8;
+    display: flex;
+    
+}
+
+.hours {
+    border-bottom: #4c4c4c;
+    margin-top: 5%;
+    margin-bottom: 10px;
+}

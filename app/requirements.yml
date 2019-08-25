@@ -1,0 +1,14 @@
+name: luna
+dependencies:
+ - python=3.6
+ - pip=19.1.1
+ - psycopg2=2.7.6.1
+ - pip:
+     - Django==2.2.2
+     - flake8==3.7.7
+     - gunicorn==19.9.0
+     - djangorestframework==3.9.4
+     - djangorestframework_simplejwt==4.3.0
+     - coreapi==2.3.3
+     - django-post_office==3.2.1
+     - Pillow==6.0.0

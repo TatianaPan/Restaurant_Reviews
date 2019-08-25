@@ -1,0 +1,40 @@
+version: '3'
+
+services:
+ nginx:
+   image: nginx:latest
+   ports:
+     - "80:80"
+     - "443:443"
+   volumes:
+     - ./nginx:/etc/nginx/conf.d
+     - /etc/letsencrypt:/etc/letsencrypt
+     - static-files:/static-files
+     - media-files:/media-files
+     - frontend:/frontend
+
+
+ luna_db:
+   image: postgres:latest
+   env_file:
+     - env_files/postgres.env
+   volumes:
+     - postgres_luna:/var/lib/postgresql/data
+
+ app:
+   image: registry.gitlab.propulsion-home.ch/andromeda/luna
+   command: "sh /scripts/deploy-ssh.sh"
+   env_file:
+     - env_files/postgres.env
+   depends_on:
+     - luna_db
+   volumes:
+     - static-files:/static-files
+     - media-files:/media-files
+     - frontend:/luna-build
+
+volumes:
+ postgres_luna:
+ media-files:
+ static-files:
+ frontend:
