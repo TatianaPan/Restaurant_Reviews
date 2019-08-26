@@ -22,7 +22,7 @@ services:
      - postgres_luna:/var/lib/postgresql/data
 
  app:
-   image: registry.gitlab.propulsion-home.ch/andromeda/luna
+   image: registry.gitlab.propulsion-home.ch/tatiana-propulsion/week9/restaurnats-review:latest
    command: "sh /scripts/deploy-ssh.sh"
    env_file:
      - env_files/postgres.env

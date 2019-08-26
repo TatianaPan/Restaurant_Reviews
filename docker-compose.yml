@@ -1,7 +1,7 @@
 version: '3'
 services:
  app:
-   image: luna:latest
+   image: registry.gitlab.propulsion-home.ch/tatiana-propulsion/week9/restaurnats-review:latest
    command: "/usr/sbin/sshd -D"
    ports:
      - "2222:22"
