@@ -29,7 +29,7 @@ SECRET_KEY = '+hkp88h1%i!-k=j=1^xv9-jq*5k93dn0)s&=m#f8f+d@rc+4me'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['0.0.0.0', 'localhost', 'andromeda.propulsion-learn.ch']
+ALLOWED_HOSTS = ['*']
 
 
 # Application definition
