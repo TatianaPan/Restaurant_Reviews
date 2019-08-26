@@ -15,6 +15,14 @@ class Restaurants extends Component {
         return (
             <div>
                 <div className='restaurants'>
+                {/* {   (this.props.restaurants) ?
+                        this.props.restaurants.map(restaurant => {
+                            
+                        return <RestaurantCard 
+                        key={restaurant.id}
+                        restaurant={restaurant}/>
+                    }) : <></>
+                    } */}
 
                     {   (this.props.restaurants) ?
                         this.props.restaurants.map(restaurant => {

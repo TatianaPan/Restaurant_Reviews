@@ -5,6 +5,7 @@ import {connect} from "react-redux";
 import Header from '../Header';
 import SearchBar from '../SearchBar';
 import {SearchBanner, SubHeader, Underline} from '../../styles/home_layout';
+import Restaurants from '../Restaurants';
 import facebookLogo from '../../assets/icons/facebook.svg';
 import twitterLogo from '../../assets/icons/twitter.svg';
 import googleLogo from '../../assets/icons/googleplus.svg';
@@ -15,8 +16,8 @@ const Home = ({children, location}) => {
     return (
         <div className="Home">
             <Header/>
-            {(location.pathname === '/')
-                ? <>
+            
+                
                 <SearchBanner>
                     <SearchBar/>
                 </SearchBanner>
@@ -25,11 +26,9 @@ const Home = ({children, location}) => {
                         <span>BEST RATED RESTAURANTS</span>
                         <Underline/>
                     </SubHeader>
-                </>
-                : <></>
-            }
+            
             <div>
-                {children}
+                <Restaurants />
             </div>
             <div className='footer'>
                 <div className='footer-upper'>
