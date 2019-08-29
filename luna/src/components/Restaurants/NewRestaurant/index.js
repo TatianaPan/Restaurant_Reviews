@@ -10,6 +10,7 @@ class NewRestaurant extends Component {
 
     state = {
         name: '',
+        category: '',
         country: '',
         street: '',
         city: '',
@@ -67,7 +68,11 @@ class NewRestaurant extends Component {
                         value={this.state.category}
                         onChange={this.handleUserInput} /> */}
 
-                    <select className='input' value={this.state.category} onChange={this.handleUserInput}>
+                    <select className='input' 
+                        value={this.state.category}
+                        onChange={this.handleUserInput} 
+                        >
+                         <option>Select category</option>
                         <option value="traditional">Traditional</option>
                         <option value="asian">Asian</option>
                         <option value="italian">Italian</option>

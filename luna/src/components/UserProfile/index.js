@@ -64,13 +64,13 @@ class UserProfile extends Component {
                         </div>
                         <div className='review-card'>
                             <div className='review-name-section'>
-                                <div className='review-name'>Läderach Chocolatier Suiesse</div>
-                                <div className='review-date'>01.02.2018</div>
+                                <div className='review-name'>Kindli</div>
+                                <div className='review-date'>10.07.2018</div>
                             </div>
                             <img src={stars} width='150px' />
-                            <div className='review-text'>This location at the Bahnhofstrasse is quite friendly and easily
-                            located across the street from the train station. The people there seem to be quite good and
-                            helpful in their service. </div>
+                            <div className='review-text'>Very nice space exuding a high end ambiance.  The outdoor setting in a picturesque 
+                            alley makes it ideal for a quiet, romantic dinner. Food and service was excellent, 
+                            and costs in line with general Zurich restaurant prices which tend to be high. A great experience indeed. </div>
                         </div>
                     </div>
                     

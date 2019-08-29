@@ -11,10 +11,10 @@ import photo4 from '../../../assets/images/bar-buffet-12-4.png';
 // };
 
 const initialState = {
-    restaurants: [{id: '1', name: 'Samurai', country: 'Switzerland', city: 'Zurich', price: '$ - $$', photo: `${photo1}`}, 
-    {id: '2', name: 'Samurai', country: 'Switzerland', city: 'Zurich', price: '$ - $$', photo: `${photo2}`}, 
-    {id: '3', name: 'Samurai', country: 'Switzerland', city: 'Zurich', price: '$ - $$', photo: `${photo3}`},
-    {id: '4', name: 'Samurai', country: 'Switzerland', city: 'Zurich', price: '$ - $$', photo: `${photo4}`}],
+    restaurants: [{id: '1', name: 'Gustav', country: 'Switzerland', city: 'Zurich', price: '$$ - $$$', photo: `${photo1}`}, 
+    {id: '2', name: 'Sternen', country: 'Switzerland', city: 'Zurich', price: '$$ - $$$', photo: `${photo2}`}, 
+    {id: '3', name: 'Haus zum Rueden', country: 'Switzerland', city: 'Zurich', price: '$$ - $$$', photo: `${photo3}`},
+    {id: '4', name: 'Tremondi', country: 'Switzerland', city: 'Zurich', price: '$$ - $$$', photo: `${photo4}`}],
     restaurant: {}
 };
 
