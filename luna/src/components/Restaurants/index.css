@@ -1,7 +1,31 @@
+.main-wrapper {
+    /* background-color: #eeeef1af; */
+    min-height: 100vh;
+    overflow: scroll;
+}
+
 .restaurants {
-    background-color: #eeeef1af;
+    
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    border: 1px solid black;
+    
 }
+
+.center-button {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.add-new-button {
+    
+    color: #ffffff;
+    width: 200px;
+    height: 56px;
+    border-radius: 28px;
+    background-color: #e47d31;
+    font-family: Helvetica;
+    font-size: 20px;
+    text-align: center;
+  }

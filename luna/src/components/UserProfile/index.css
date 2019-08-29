@@ -1,0 +1,86 @@
+.user-profile-wrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+.user-profile-banner {
+    background-image: url('../../assets/images/zuerich.png');
+    width: 100%;
+    height: 150px;
+}
+
+.user-ptofile-main {
+    display: flex; 
+    height: 100vh;
+}
+
+.profile-sidebar {
+    margin-left: 10%;
+    margin-top: 2%;
+    color: #4c4c4c;
+}
+
+.sidebar-text {
+    margin-left: 10px;
+    font-size: 20px;
+}
+
+.headings-text {
+    color: #4c4c4c;
+}
+
+.reviews {
+    border-bottom: 1px solid rgb(180, 179, 179);
+    border-top: 1px solid rgb(180, 179, 179);
+    padding: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.user-profile-content {
+    width: 50%;
+    background-color: white;
+    padding: 10px;
+}
+
+.review-card {
+    display: flex;
+    flex-direction: column;
+}
+
+.review-name-section {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    color: #4c4c4c;
+}
+
+.review-card {
+    border-bottom: 1px solid rgb(180, 179, 179);
+}
+
+.review-text {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: #4c4c4c;
+}
+
+.review-name {
+    color: #4c4c4c;
+    
+}
+
+.user-description {
+    padding: 20px;
+    width: 30%;
+}
+
+.location {
+    width: 70%;
+    margin-bottom: 20px;
+}
+
+.description-text {
+    margin: 0;
+}

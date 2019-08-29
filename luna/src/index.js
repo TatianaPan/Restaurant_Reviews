@@ -9,12 +9,13 @@ import Home from './components/Home';
 import Users from './components/Users/index'
 import LoginForm from './components/Login';
 import SignUpForm from './components/SignUp';
-import AuthChecker from './HOC/AuthChecker';
+//import AuthChecker from './HOC/AuthChecker';
 import {login} from "./store/reducers/loginReducer/actions";
 import Restaurants from "./components/Restaurants"
 import NewRestaurant from "./components/Restaurants/NewRestaurant";
 import SearchPage from "./components/Search";
 import RestaurantProfile from './components/Restaurants/RestaurantProfile';
+import UserProfile from './components/UserProfile'
 
 const token = localStorage.getItem('token');
 const refresh = localStorage.getItem('refresh');
@@ -33,8 +34,9 @@ ReactDOM.render(
                     <Route exact path='/signup' component={SignUpForm}/>
                     <Route exact path='/search' component={SearchPage}/>
                     <Route exact path='/users' component={Users}/>
+                    <Route exact path='/me/' component={UserProfile}/>
                     <Route exact path='/restaurants/id/:id' component={RestaurantProfile}/>
-                    <Route exact path='/restaurants/new' component={AuthChecker(NewRestaurant)}/>
+                    <Route exact path='/restaurants/new' component={NewRestaurant}/>
                 </Switch>
             </Home>
         </BrowserRouter>

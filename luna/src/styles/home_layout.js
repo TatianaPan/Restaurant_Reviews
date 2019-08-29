@@ -11,7 +11,7 @@ export const SearchBanner = styled.div`
   justify-content: center;
   align-items: center;
   
-  margin-top: 71px;
+  /* margin-top: 71px; */
   
   background-image: url(${searchBannerImage});
   
@@ -51,7 +51,7 @@ export const SubHeader = styled.div`
   text-align: center;
   color: #4c4c4c;
   
-  background-color: #eeeef1af;
+  /* background-color: #eeeef1af; */
   
   padding-top: 30px;
   padding-bottom: 10px;

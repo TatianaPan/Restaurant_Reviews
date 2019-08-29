@@ -5,6 +5,7 @@ import { Link } from "react-router-dom";
 import {RestaurantCardStyle, RestaurantHeader, RestaurantName,
     RestaurantSub, RestaurantStars, RestaurantImage} from '../../../styles/cards';
 import stars from '../../../assets/images/stars.png';
+import restphoto from '../../../assets/images/bar-buffet-12-1.png'
 
 class RestaurantCard extends Component {
     render() {
@@ -16,7 +17,7 @@ class RestaurantCard extends Component {
                     <RestaurantSub>{this.props.restaurant.country}, {this.props.restaurant.city}</RestaurantSub>
                     <RestaurantStars src={stars} alt=''/>
                 </RestaurantHeader>
-                <RestaurantImage src={this.props.restaurant.photo} alt=''/>
+                <RestaurantImage src={this.props.restaurant.photo} alt='rest-photo'/>
             </RestaurantCardStyle>
 
         // Code without backend

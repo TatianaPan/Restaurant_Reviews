@@ -4,8 +4,8 @@ export const SearchPageHeader = styled.div`
   display: flex;
   flex-direction: column;
   justify-content: center;
-  margin-top: 71px;
-  
+  /* margin-top: 71px;
+   */
   width: 100%;
   font-size: 24px;
   font-weight: bold;
