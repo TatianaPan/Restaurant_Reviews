@@ -11,10 +11,10 @@
 
 ## Screenshots
 
-[home]: ./screenshots/home.png
+[home] (./screenshots/home.png)
 
-[home1]: ./screenshots/home1.png
+[home1] (./screenshots/home1.png)
 
-[create]: ./screenshots/create_new.png
+[create] (./screenshots/create_new.png)
 
-[user]: ./screenshots/userfrofile.png
+[user] (./screenshots/userfrofile.png)
